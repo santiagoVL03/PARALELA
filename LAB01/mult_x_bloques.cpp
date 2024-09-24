@@ -8,7 +8,6 @@ void multiplyMatricesBlock(const vector<vector<int>>& A, const vector<vector<int
     for (int i = 0; i < n; i += blockSize) {
         for (int j = 0; j < n; j += blockSize) {
             for (int k = 0; k < n; k += blockSize) {
-                // Multiplicar bloques A(i,k) x B(k,j)
                 for (int bi = i; bi < min(i + blockSize, n); ++bi) {
                     for (int bj = j; bj < min(j + blockSize, n); ++bj) {
                         for (int bk = k; bk < min(k + blockSize, n); ++bk) {

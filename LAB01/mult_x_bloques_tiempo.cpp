@@ -50,12 +50,11 @@ void evaluatePerformanceBlock(int n, int blockSize) {
 }
 
 int main() {
-    // Evaluar el desempeño para diferentes tamaños de matrices y bloques
-    evaluatePerformanceBlock(100, 50);  // Matriz de 100x100 con bloques de 10x10
-    evaluatePerformanceBlock(200, 60);  // Matriz de 200x200 con bloques de 20x20
-    evaluatePerformanceBlock(300, 80);  // Matriz de 500x500 con bloques de 50x50
-    evaluatePerformanceBlock(500, 100); // Matriz de 1000x1000 con bloques de 100x100
-    evaluatePerformanceBlock(600, 120); // Matriz de 2000x2000 con bloques de 200x200
+    evaluatePerformanceBlock(100, 50);
+    evaluatePerformanceBlock(200, 60);
+    evaluatePerformanceBlock(300, 80);
+    evaluatePerformanceBlock(500, 100);
+    evaluatePerformanceBlock(600, 120);
 
     return 0;
 }
